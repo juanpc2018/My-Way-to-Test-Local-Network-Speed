@@ -49,9 +49,9 @@ OSX, Windows, Linux,
 
 OSX has a free gui software,
 Windows has 4GB Free software from AMD / Dataram Ramdisk / Ramdrive.
-Linux best driver is rapiddisk 8.2.0, but all Linux have free built-in ram drive drivers.
+Linux best driver is rapiddisk 8.2.0, but all Linux have built-in ram drive drivers.
 
-Transfer a .ISO 
+Transfer a 3GB / 4GB .ISO 
 a Kubuntu or any other .iso
 Ram to Ram.
 That will avoid variables like SSD/HDD/SATA speed bottlenecks.
@@ -59,6 +59,7 @@ That will avoid variables like SSD/HDD/SATA speed bottlenecks.
 Move the File Back & forth, Cut&Paste.
 You can optimize driver settings like MTU from 1500 to 9000,
 DDR3 1333MHz is much faster, will have No bottlenecks.
+DDR3 1600MHz is even faster,
 
 $ sudo dmidecode --type 17
 
