@@ -1,4 +1,4 @@
-# My-Way-to-Test-Local-Network-Speed
+# Test-Local-Network-Speed
 
 Local Network Speed depends in many different variables.
 the Network Adapters, the drivers, the configuration, if has Router or Switch or Direct Connection, PCIe slot, etc.. 
