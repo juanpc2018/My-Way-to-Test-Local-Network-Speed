@@ -1,16 +1,16 @@
 # Test-Local-Network-Speed
 
 Local Network Speed depends in many different variables.
-the Network Adapters, the drivers, the configuration, if has Router or Switch or Direct Connection, PCIe slot, etc.. 
+the Network Adapters, the drivers, the configuration, if has Router or Switch or Direct Connection, PCIe slot, CPU PCIe lanes available, etc.. 
 
 if you have SFP+ 10G Lc-Lc, like Marvell AQtion, Intel, etc...
 
-The best / fastest possible method/speed is Direct connection,
-Computer1---Computer2
+The best / fastest possible method is Direct connection,
+Computer1<--->Computer2
 
 but Using more than 2 computers becomes a problem,
 you need to Bridge Network Adapters to make visible the Computer1 with Computer3.
-Computer1---Computer2---Computer3
+Computer1<--->Computer2<--->Computer3
 
 Bridge is CPU intensive, Bridge computer must be Dedicated Machine for Best Performance.
 
